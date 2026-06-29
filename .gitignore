@@ -1,0 +1,30 @@
+# Keil build output
+*.o
+*.axf
+*.hex
+*.lst
+*.map
+*.dep
+*.crf
+*.d
+*.elf
+*.bin
+Objects/
+Listings/
+Output/
+Listing/
+DebugConfig/
+JLinkLog.txt
+
+# Keil project user files (keep template)
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# Editor / OS
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
