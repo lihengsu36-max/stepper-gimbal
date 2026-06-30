@@ -31,8 +31,13 @@ void PendSV_Handler(void);
 void SysTick_Handler(void);
 
 /* 外设中断 */
+/* K230 视觉坐标 (USART1 接收) */
+extern volatile int16_t vision_cx;
+extern volatile int16_t vision_cy;
+extern volatile uint8_t  vision_ready;
+
 void TIM2_IRQHandler(void);
 void TIM3_IRQHandler(void);
-void USART1_IRQHandler(void);
+void USART3_IRQHandler(void);
 
 #endif /* __STM32F10x_IT_H */
